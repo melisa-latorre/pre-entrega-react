@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './componentes/layout/Layout';
 import { ItemListContainer } from './componentes/productos/ItemListContainer';
 
-// Creamos un componente Inicio rapidito
+
 function Inicio() {
   return (
     <div style={{ textAlign: 'center', padding: '4rem 2rem' }}>
@@ -13,7 +13,7 @@ function Inicio() {
   );
 }
 
-// Creamos un componente Carrito rapidito
+
 function Carrito() {
   return (
     <div style={{ textAlign: 'center', padding: '4rem 2rem' }}>
@@ -25,7 +25,7 @@ function Carrito() {
 
 function App() {
   return (
-    /* ACÁ ESTÁ LA MAGIA: BrowserRouter envuelve a Layout y soluciona el error del Link */
+    
     <BrowserRouter>
       <Layout>
         <Routes>
