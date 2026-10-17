@@ -3,7 +3,6 @@ import { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
 
 export function Item({ producto }) {
-  // Traemos la función para guardar productos
   const { agregarAlCarrito } = useContext(CartContext);
 
   return (
@@ -14,7 +13,7 @@ export function Item({ producto }) {
         <p style={estilos.descripcion}>{producto.descripcion}</p>
         <p style={estilos.precio}>${producto.precio.toLocaleString()}</p>
         
-        {/* Le agregamos el evento onClick al botón */}
+        {}
         <button 
           style={estilos.boton} 
           onClick={() => agregarAlCarrito(producto)}
