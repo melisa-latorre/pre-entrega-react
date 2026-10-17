@@ -7,7 +7,6 @@ export function ItemListContainer() {
   const [cargando, setCargando] = useState(true);
 
   useEffect(() => {
-    // Usamos fetch para leer el archivo productos.json de la carpeta public
     fetch('/productos.json')
       .then((respuesta) => respuesta.json())
       .then((datos) => {
@@ -25,7 +24,10 @@ export function ItemListContainer() {
 
   return (
     <div style={estilos.contenedorPrincipal}>
-      <h2 style={estilos.tituloSeccion}>Catálogo de Códigos</h2>
+      {}
+      <div style={{ textAlign: 'center' }}>
+        <h2 style={estilos.tituloSeccion}>Catálogo de Códigos</h2>
+      </div>
       
       <div style={estilos.grillaProductos}>
         {productos.map((producto) => (
@@ -38,6 +40,13 @@ export function ItemListContainer() {
 
 const estilos = {
   contenedorPrincipal: { padding: '2rem', maxWidth: '1200px', margin: '0 auto' },
-  tituloSeccion: { textAlign: 'center', color: 'var(--color-primario)', marginBottom: '2rem', borderBottom: '2px solid var(--color-acento)', paddingBottom: '10px', display: 'inline-block' },
-  grillaProductos: { display: 'flex', flexWrap: 'wrap', gap: '2rem', justifyContent: 'center' }
+  tituloSeccion: { color: 'var(--color-primario)', marginBottom: '2rem', borderBottom: '2px solid var(--color-acento)', paddingBottom: '10px', display: 'inline-block' },
+  
+  
+  grillaProductos: { 
+    display: 'grid', 
+    gridTemplateColumns: 'repeat(2, 280px)', 
+    gap: '3rem', 
+    justifyContent: 'center'
+  }
 };
