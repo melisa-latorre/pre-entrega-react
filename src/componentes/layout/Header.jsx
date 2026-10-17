@@ -1,4 +1,5 @@
 // src/componentes/layout/Header.jsx
+// src/componentes/layout/Header.jsx
 import { Link } from 'react-router-dom';
 
 export function Header() {

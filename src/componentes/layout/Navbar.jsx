@@ -1,9 +1,8 @@
-// src/componentes/layout/Navbar.jsx
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
 
-export function Navbar() {
+export function NavBar() {
 
   const { cantidadTotal } = useContext(CartContext);
 

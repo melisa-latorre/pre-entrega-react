@@ -1,21 +1,20 @@
-// src/componentes/layout/Layout.jsx
-import { Header } from './Header.jsx';
-import { Navbar } from './NavBar.jsx';
-import { Footer } from './Footer.jsx';
+import { Header } from './Header';
+import { NavBar } from './NavBar';
+import { PieDePagina } from './PieDePagina';
 
 
 export function Layout({ children }) {
   return (
     <div style={estilos.contenedorLayout}>
       <Header />
-      <Navbar />
+      <NavBar />
       
       {}
       <main style={estilos.contenidoPrincipal}>
         {children}
       </main>
       
-      <Footer />
+      <PieDePagina/>
     </div>
   );
 }

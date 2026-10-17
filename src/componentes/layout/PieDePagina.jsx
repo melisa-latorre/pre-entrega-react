@@ -1,5 +1,5 @@
-// src/componentes/layout/Footer.jsx
-export function Footer() {
+// src/componentes/layout/PieDePagina.jsx
+export function PieDePagina() {
   const equipo = [
     { id: 1, nombre: "Dr. Roberto Sánchez", rol: "Director Editorial" },
     { id: 2, nombre: "Dra. Laura Gómez", rol: "Revisora Legal" },
@@ -34,7 +34,6 @@ export function Footer() {
   );
 }
 
-// Estilos en línea para hacer rápido el Footer (podrías pasarlo a CSS)
 const estilos = {
   footer: { backgroundColor: '#f9f9f9', borderTop: '1px solid var(--color-borde)', padding: '2rem', marginTop: '3rem', display: 'flex', flexDirection: 'column', alignItems: 'center' },
   infoEmpresa: { textAlign: 'center', marginBottom: '2rem' },
