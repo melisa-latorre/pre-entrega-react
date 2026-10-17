@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "titulo": "Código Penal de la Nación",
+    "descripcion": "Edición comentada y concordada 2024.",
+    "precio": 25000,
+    "imagen": "https://via.placeholder.com/150/ffffff/000000?text=Codigo+Penal"
+  },
+  {
+    "id": 2,
+    "titulo": "Código Procesal Penal",
+    "descripcion": "Incluye últimas reformas legislativas.",
+    "precio": 28000,
+    "imagen": "https://via.placeholder.com/150/ffffff/000000?text=Procesal+Penal"
+  },
+  {
+    "id": 3,
+    "titulo": "Código Civil y Comercial",
+    "descripcion": "Edición de estudio, tapa blanda.",
+    "precio": 32000,
+    "imagen": "https://via.placeholder.com/150/ffffff/000000?text=Civil+y+Comercial"
+  },
+  {
+    "id": 4,
+    "titulo": "Constitución Nacional",
+    "descripcion": "Edición de bolsillo ilustrada.",
+    "precio": 15000,
+    "imagen": "https://via.placeholder.com/150/ffffff/000000?text=Constitucion"
+  }
+]

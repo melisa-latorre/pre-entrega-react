@@ -1,0 +1,29 @@
+/* src/index.css */
+:root {
+  --color-fondo: #ffffff;
+  --color-texto: #333333;
+  --color-primario: #000000;
+  --color-acento: #0088cc; /* El toque celeste */
+  --color-borde: #eaeaea;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fuente clásica y seria */
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primario);
+}
+
+a:hover {
+  color: var(--color-acento);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
