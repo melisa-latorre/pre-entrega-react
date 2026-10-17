@@ -1,5 +1,5 @@
 import { Header } from './Header';
-import { NavBar } from './NavBar';
+import { MenudeNavegacion } from './MenudeNavegacion';
 import { PieDePagina } from './PieDePagina';
 
 
@@ -7,7 +7,7 @@ export function Layout({ children }) {
   return (
     <div style={estilos.contenedorLayout}>
       <Header />
-      <NavBar />
+      <MenudeNavegacion/>
       
       {}
       <main style={estilos.contenidoPrincipal}>
