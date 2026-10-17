@@ -1,18 +1,16 @@
 // src/componentes/layout/Layout.jsx
-import { Header } from './header';
-import { Navbar } from './NavBar';
-import { Footer } from './footer';
+import { Header } from './Header.jsx';
+import { Navbar } from './NavBar.jsx';
+import { Footer } from './Footer.jsx';
 
-// Este componente funciona como un "molde".
-// La prop "children" representa el contenido dinámico (Inicio, Catálogo, Carrito)
-// que va a ir cambiando en el medio de la página.
+
 export function Layout({ children }) {
   return (
     <div style={estilos.contenedorLayout}>
       <Header />
       <Navbar />
       
-      {/* Acá se inyecta el contenido de cada página */}
+      {}
       <main style={estilos.contenidoPrincipal}>
         {children}
       </main>
@@ -26,10 +24,10 @@ const estilos = {
   contenedorLayout: {
     display: 'flex',
     flexDirection: 'column',
-    minHeight: '100vh', // Para que el footer se quede abajo si hay poco contenido
+    minHeight: '100vh', 
   },
   contenidoPrincipal: {
-    flex: 1, // Esto empuja al footer hacia abajo
+    flex: 1, 
     padding: '2rem 1rem',
   }
 };
