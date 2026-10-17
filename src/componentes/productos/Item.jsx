@@ -1,5 +1,11 @@
 // src/componentes/productos/Item.jsx
+import { useContext } from 'react';
+import { CartContext } from '../../context/CartContext';
+
 export function Item({ producto }) {
+  // Traemos la función para guardar productos
+  const { agregarAlCarrito } = useContext(CartContext);
+
   return (
     <div style={estilos.tarjeta}>
       <img src={producto.imagen} alt={producto.titulo} style={estilos.imagen} />
@@ -7,7 +13,14 @@ export function Item({ producto }) {
         <h3 style={estilos.titulo}>{producto.titulo}</h3>
         <p style={estilos.descripcion}>{producto.descripcion}</p>
         <p style={estilos.precio}>${producto.precio.toLocaleString()}</p>
-        <button style={estilos.boton}>Agregar al Carrito</button>
+        
+        {/* Le agregamos el evento onClick al botón */}
+        <button 
+          style={estilos.boton} 
+          onClick={() => agregarAlCarrito(producto)}
+        >
+          Agregar al Carrito
+        </button>
       </div>
     </div>
   );
