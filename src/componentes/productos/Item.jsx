@@ -1,4 +1,3 @@
-// src/componentes/productos/Item.jsx
 import { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
 
@@ -18,7 +17,7 @@ export function Item({ producto }) {
           style={estilos.boton} 
           onClick={() => agregarAlCarrito(producto)}
         >
-          Agregar al Carrito
+          AGREGAR AL CARRITO
         </button>
       </div>
     </div>

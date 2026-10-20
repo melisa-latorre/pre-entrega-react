@@ -1,6 +1,5 @@
 // src/componentes/formulario/FormularioContainer.jsx
 import { useState } from "react";
-// Como ahora los pusimos en la misma carpeta, el import es más directo:
 import FormularioProducto from "./FormularioProducto";
 
 function FormularioContainer() {

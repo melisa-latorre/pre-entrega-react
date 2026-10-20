@@ -1,4 +1,3 @@
-// src/componentes/productos/ItemListContainer.jsx
 import { useState, useEffect } from 'react';
 import { Item } from './Item';
 
@@ -12,21 +11,21 @@ export function ItemListContainer() {
       .then((datos) => {
         setProductos(datos);
       })
-      .catch((error) => console.error("Error al cargar productos:", error))
+      .catch((error) => console.error("Error al cargar productos.", error))
       .finally(() => {
         setCargando(false);
       });
   }, []);
 
   if (cargando) {
-    return <p style={{ textAlign: 'center', padding: '2rem' }}>Cargando catálogo legal...</p>;
+    return <p style={{ textAlign: 'center', padding: '2rem' }}>¡Aguarde un instante mientras cargamos el catálogo!</p>;
   }
 
   return (
     <div style={estilos.contenedorPrincipal}>
       {}
       <div style={{ textAlign: 'center' }}>
-        <h2 style={estilos.tituloSeccion}>Catálogo de Códigos</h2>
+        <h2 style={estilos.tituloSeccion}>TODOS LOS PRODUCTOS</h2>
       </div>
       
       <div style={estilos.grillaProductos}>

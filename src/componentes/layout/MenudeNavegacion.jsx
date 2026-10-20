@@ -9,17 +9,17 @@ export function MenudeNavegacion() {
   return (
     <nav style={estilos.nav}>
       <ul style={estilos.lista}>
-        <li><Link to="/" style={estilos.link}>Inicio</Link></li>
-        <li><Link to="/productos" style={estilos.link}>Catálogo</Link></li>
+        <li><Link to="/" style={estilos.link}>QUIENES SOMOS</Link></li>
+        <li><Link to="/productos" style={estilos.link}>TIENDA</Link></li>
         
         {}
         <li>
           <Link to="/carrito" style={estilos.link}>
-            Carrito {cantidadTotal > 0 && <span style={estilos.contador}>({cantidadTotal})</span>}
+            CARRITO {cantidadTotal > 0 && <span style={estilos.contador}>({cantidadTotal})</span>}
           </Link>
         </li>
         
-        <li><Link to="/agregar" style={estilos.link}>Nuevo Producto</Link></li>
+        <li><Link to="/agregar" style={estilos.link}>CARGAR PRODUCTO</Link></li>
       </ul>
     </nav>
   );

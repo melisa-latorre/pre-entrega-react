@@ -1,10 +1,9 @@
-// src/componentes/formulario/FormularioProducto.jsx
 import styles from './FormularioProducto.module.css';
 
 function FormularioProducto({ datosForm, manejarCambio, manejarEnvio }) {
     return (
         <form onSubmit={manejarEnvio} className={styles.formulario}>
-            <h3 style={{ textAlign: 'center', margin: '0 0 10px 0' }}>Agregar Nuevo Código Legal</h3>
+            <h3 style={{ textAlign: 'center', margin: '0 0 10px 0' }}>AGREGAR PRODUCTO</h3>
             <div>
                 <label htmlFor="id">Id: </label><br/>
                 <input type="text" name="id" onChange={manejarCambio}/>

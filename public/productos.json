@@ -1,30 +1,142 @@
 [
   {
     "id": 1,
-    "titulo": "Código Penal de la Nación",
-    "descripcion": "Edición comentada y concordada 2024.",
-    "precio": 25000,
-    "imagen": "/codigopenal.png"
+    "titulo": "CÓDIGO CIVIL Y COMERCIAL DE LA NACIÓN",
+    "descripcion": "Comentado y concordada. Tapa blanda, edición actualizada.",
+    "precio": 60000,
+    "imagen": "/cccn.jpeg"
   },
   {
     "id": 2,
-    "titulo": "Código Procesal Penal",
-    "descripcion": "Incluye últimas reformas legislativas.",
-    "precio": 28000,
-    "imagen": "/procesalpenal.png"
+    "titulo": "CÓDIGO PROCESAL CIVIL Y COMERCIAL DE LA NACIÓN",
+    "descripcion": "Comentado, anotado y concordado con jurisprudencia y doctrina. Tapa dura.",
+    "precio": 100000,
+    "imagen": "/cccnprocesal.jpeg"
   },
   {
     "id": 3,
-    "titulo": "Código Civil y Comercial",
-    "descripcion": "Edición de estudio, tapa blanda.",
-    "precio": 32000,
-    "imagen": "/cccn.png"
+    "titulo": "CÓDIGO PROCESAL CIVIL Y COMERCIAL DE LA PROV. DE BUENOS AIRES",
+    "descripcion": "Incluye leyes complementarias. Tapa blanda.",
+    "precio": 40000,
+    "imagen": "/cccprov.jpeg"
   },
   {
     "id": 4,
-    "titulo": "Constitución Nacional",
-    "descripcion": "Edición de bolsillo ilustrada.",
-    "precio": 15000,
-    "imagen": "/Constitucion.jpg"
+    "titulo": "CÓDIGO PENAL DE LA NACIÓN",
+    "descripcion": ".",
+    "precio": 40000,
+    "imagen": "/procesalpenal.png"
+  },
+  {
+    "id": 5,
+    "titulo": "CÓDIGO PROCESAL PENAL DE LA NACIÓN",
+    "descripcion": "Incluye últimas reformas legislativas.",
+    "precio":40000,
+    "imagen": "/procesalpenal.png"
+  },
+  {
+    "id": 6,
+    "titulo": "CÓDIGO PROCESAL PENAL DE LA PROV. DE BUENOS AIRES",
+    "descripcion": "Edición de estudio, tapa blanda.",
+    "precio": 40000,
+    "imagen": "/cccn.png"
+  },
+  {
+    "id": 7,
+    "titulo": "CONSTITUCIÓN NACIONAL",
+    "descripcion": "Incluye tratados internacionales con jerarquía contitucional.",
+    "precio": 50000,
+    "imagen": "/cn.jpeg"
+  },
+  {
+    "id": 8,
+    "titulo": "CONSTITUCIÓN DE LA PROV. DE BUENOS AIRES",
+    "descripcion": "Anotada y concordada. Tapa blanda.",
+    "precio": 50000,
+    "imagen": "/cnprovincia.jpeg"
+  },
+  {
+    "id": 9,
+    "titulo": "CONSTITUCIÓN DE LA CIUDAD AUTÓNOMA DE BUENOS AIRES",
+    "descripcion": "Comentada y concordada.",
+    "precio": 80000,
+    "imagen": "/cncaba.jpeg"
+  },
+  {
+    "id": 10,
+    "titulo": "DE BOLSILLO: CPN",
+    "descripcion": "Código Penal de la Nación comentado y concordado. Incluye eBook. Edición de bolsillo, tapa blanda, especial para universitario.",
+    "precio": 30000,
+    "imagen": "/universitariopenal.jpeg"
+  },
+{
+    "id": 11,
+    "titulo": "DE BOLSILLO: CN",
+    "descripcion": "Constitución Nacional de la República Argentina. Incluye Tratados Internacionales con jerarquía constitucional. Incluye eBook. Edición de bolsillo, tapa blanda, especial para universitarios.",
+    "precio": 35000,
+    "imagen": "/universitariocn.jpeg"
+  },
+  {
+    "id": 12,
+    "titulo": "DE BOLSILLO: CCCN",
+    "descripcion": "Comentado, anotado y concordado. Incluye eBook. Edición de bolsillo, tapa blanda, especial para universitarios.",
+    "precio": 30000,
+    "imagen": "/universitariocccn.jpeg"
+  },
+  {
+    "id": 13,
+    "titulo": "JURISPRUDENCIA SISTEMÁTICA DE DERECHOS HUMANOS",
+    "descripcion": "Compilación de fallos de la Corte Interamericana y la Corte Suprema de Justicia de la Nación en materia de derechos humanos.",
+    "precio": 100000,
+    "imagen": "/jurisprudenciaddhh.jpeg"
+  },
+  {
+    "id": 14,
+    "titulo": "JURISPRUDENCIA SOBRE DERECHO A LA SALUD",
+    "descripcion": "Coberturas médicas, amparos y fallos fundametales. Compilación de fallos en materia de derecho a la salud.",
+    "precio": 100000,
+    "imagen": "/jurisprudenciasalud.jpeg"
+  },
+  {
+    "id": 15,
+    "titulo": "JURISPRUDENCIA SOBRE DERECHO LABORAL DE LA NACIÓN",
+    "descripcion": "Compilación de fallos plenarios, indemnizaciones y análisis de precedentes jjudiciales.",
+    "precio": 100000,
+    "imagen": "/jurisprudencialaboral.jpeg"
+  },
+  {
+    "id": 16,
+    "titulo": "DEFENSA DEL CONSUMIDOR: JURISPRUDENCIA ACTUALIZADA",
+    "descripcion": "Compilación de fallos clave, contratos de adhesión y daños al consumidor.",
+    "precio": 80000,
+    "imagen": "/jurisprudenciaconsumidor.jpeg"
+  },
+  {
+    "id": 17,
+    "titulo": "TRATADO DE DERECHOS HUMANOS Y GARANTÍAS",
+    "descripcion": "Principios, estándares internacionales y aplicación local. Incluye últimas reformas legislativas.",
+    "precio": 70000,
+    "imagen": "/doctrinaddhh.jpeg"
+  },
+  {
+    "id": 18,
+    "titulo": "DERECHO DE LA SALUD Y BIOÉTICA",
+    "descripcion": "Aspectos doctrinarios, responsabilidad médica y régimen legal. Incluye últimas reformas legislativas.",
+    "precio": 85000,
+    "imagen": "/doctrinasalud.jpeg"
+  },
+  {
+    "id": 19,
+    "titulo": "TRATADO DE DERECHO DEL TRABAJO",
+    "descripcion": "Relaciones colectivas. Incluye últimas reformas legislativas.",
+    "precio": 85000,
+    "imagen": "/doctrinalaboral.jpeg"
+  },
+  {
+    "id": 20,
+    "titulo": "DERECHO DEL CONSUMIDOR Y DEL USUARIO",
+    "descripcion": "Régimen legal, comercio electrónico y servicios públicos. Incluye últimas reformas legislativas y fallos.",
+    "precio": 90000,
+    "imagen": "/doctrinaconsumidor.jpeg"
   }
 ]
